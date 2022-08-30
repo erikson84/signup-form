@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup for outr amazing seminar</title>
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+<body>
+    <div class="side-logo">
+        <figure>
+            <img src="./img/odin-lined.png" alt="Seminar Logo">
+            <span>SAPSI</span>
+        </figure>
+    </div>
+    <div class="form">
+        <header>
+            <p>Our amazing Psychology seminar will <em>blow your mind</em>! Signup for
+            an unique chance to participate.</p>
+            <p>Participation is free and you can even propose a theme.</p>
+        </header>
+        <main>
+            <h3>Signup now and don't miss a thing!</h3>
+            <form action="submit" method="post" name="signupForm">
+                <label for="firstName">First Name</label>
+                <input type="text" name="firstName" id="firstName" required>
+                <label for="lastName">Last Name</label>
+                <input type="text" name="lastName" id="lastname" required>
+                <label for="userMail">E-mail</label>
+                <input type="email" name="userMail" id="userMail" required>
+                <label for="userPhone">Phone Number</label>
+                <input type="tel" name="userPhone" id="userPhone" required>
+                <label for="userPass">Password</label>
+                <input type="password" name="userPass" id="userPass" required>
+                <label for="confirmPass">Confirm Password</label>
+                <input type="password" name="confirmPass" id="confirmPass">
+            </form>
+        </main>
+        <footer>
+            <button type="submit" form="signupForm">Create account</button>
+            <p>Already have an account? <a href="#">Log in</a></p>
+        </footer>
+    </div>
+</body>
+</html>
