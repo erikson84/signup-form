@@ -23,18 +23,36 @@
         <main>
             <h3 class="form-header">Signup now and don't miss a thing!</h3>
             <form action="submit" method="post" name="signupForm">
-                <label for="firstName">First Name</label>
-                <input type="text" name="firstName" id="firstName" required>
-                <label for="lastName">Last Name</label>
-                <input type="text" name="lastName" id="lastname" required>
-                <label for="userMail">E-mail</label>
-                <input type="email" name="userMail" id="userMail" required>
-                <label for="userPhone">Phone Number</label>
-                <input type="tel" name="userPhone" id="userPhone" required>
-                <label for="userPass">Password</label>
-                <input type="password" name="userPass" id="userPass" required>
-                <label for="confirmPass">Confirm Password</label>
-                <input type="password" name="confirmPass" id="confirmPass">
+                <div class="form-row">
+                    <div class="input-cell">
+                        <label for="firstName">First Name</label>
+                        <input type="text" name="firstName" id="firstName" required>
+                    </div>
+                    <div class="input-cell">
+                        <label for="lastName">Last Name</label>
+                        <input type="text" name="lastName" id="lastname" required>
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="input-cell">
+                        <label for="userMail">E-mail</label>
+                        <input type="email" name="userMail" id="userMail" required>
+                    </div>
+                    <div class="input-cell">
+                        <label for="userPhone">Phone Number</label>
+                        <input type="tel" name="userPhone" id="userPhone" required>
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="input-cell">
+                        <label for="userPass">Password</label>
+                        <input type="password" name="userPass" id="userPass" required>
+                    </div>
+                    <div class="input-cell">
+                        <label for="confirmPass">Confirm Password</label>
+                        <input type="password" name="confirmPass" id="confirmPass">
+                    </div>
+                </div>
             </form>
         </main>
         <footer>
