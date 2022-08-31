@@ -22,7 +22,7 @@
         </header>
         <main>
             <h3 class="form-header">Signup now and don't miss a thing!</h3>
-            <form action="submit" method="post" name="signupForm">
+            <form action="submit" method="post" id="signupForm">
                 <div class="form-row">
                     <div class="input-cell">
                         <label for="firstName">First Name</label>
@@ -40,7 +40,8 @@
                     </div>
                     <div class="input-cell">
                         <label for="userPhone">Phone Number</label>
-                        <input type="tel" name="userPhone" id="userPhone" required>
+                        <input type="text" name="userPhone" id="userPhone"
+                        pattern="(\d{10}\d?)" title="Please enter a valid telephon number, only digits" required>
                     </div>
                 </div>
                 <div class="form-row">
@@ -50,14 +51,14 @@
                     </div>
                     <div class="input-cell">
                         <label for="confirmPass">Confirm Password</label>
-                        <input type="password" name="confirmPass" id="confirmPass">
+                        <input type="password" name="confirmPass" id="confirmPass" required>
                     </div>
                 </div>
             </form>
         </main>
         <footer>
-            <button type="submit" form="signupForm">Create account</button>
-            <p>Already have an account? <a href="#">Log in</a></p>
+            <button type="submit" form="signupForm" id="submit">Create account</button>
+            <p class="footer-text">Already have an account? <a href="#">Log in</a></p>
         </footer>
     </div>
 </body>
