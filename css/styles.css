@@ -124,6 +124,11 @@ input:focus-visible {
     outline: none;
 }
 
+.error {
+    border: thin #f26a6a solid;
+    border-radius: 3px;
+}
+
 #submit {
     background-color: #3b7ca2;
     padding: 10px 20px;   
