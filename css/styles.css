@@ -115,6 +115,11 @@ input:focus {
     box-shadow: 2px 2px 4px grey;
 }
 
+.error {
+    border: thin #f23838 solid;
+    border-radius: 3px;
+}
+
 input:focus-visible {
     outline: none;
 }
